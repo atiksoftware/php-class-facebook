@@ -1,0 +1,29 @@
+{
+    "name": "atiksoftware/php-class-facebook",
+    "description": "PHP image or text post on facebook as mobile login with username and password.",
+    "keywords": [
+        "facebook",
+        "post",
+        "share",
+        "user",
+        "pass",
+        "php"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Atiksoftware Corporation",
+            "email": "atiksoftware@gmail.com"
+        }
+    ],
+    "require": {
+        "php-curl-class/php-curl-class": "*",
+        "paquettg/php-html-parser": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Atiksoftware\\Facebook\\": "src"
+        }
+    }
+}
